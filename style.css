@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saraban', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header p{
+    font-size: 16px;
+}
+.header .contat{
+    display: inline-flex;
+}
+
+#navbar {
+    overflow: hidden;
+    background-image: url("image/Home/2-2\ 3_แถบบน\ ดำ.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 10px;
+
+}
+
+#navbar .logo{
+    float: left;
+    padding: 0;
+}
+  
+#navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 27px;
+    text-decoration: none;
+    font-size: 16px;
+}
+  
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+#navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.content .content1 .background1{
+    position:relative;
+    z-index: -1;
+}
+
+.content .content1 .readmore1{
+    position: absolute;
+    top: 30vw;
+    left: 8vw;
+    width: 20%;
+    height: auto;
+}
+
+.content .content3 .background2{
+    position: relative;
+    z-index: -1;
+}
+
+.content .content3 .readmore2{
+    position:absolute;
+    top: 139vw;
+    left: 40vw;
+    width: 20%;
+    height: auto;
+    
+}
+
+.content .content4 .background3{
+    position: relative;
+    z-index: -1;
+}
+
+.content .content4 .readmore3{
+    position: absolute;
+    top: 167vw;
+    left: 40vw;
+    width: 20%;
+    height: auto;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
